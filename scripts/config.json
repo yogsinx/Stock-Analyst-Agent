@@ -1,0 +1,11 @@
+{
+    "model_id": "llama-3.3-70b-versatile",
+    "agents": {
+        "web_search": {
+            "instructions": ["Always include sources."]
+        },
+        "finance": {
+            "instructions": ["Use tables to present data."]
+        }
+    }
+}
