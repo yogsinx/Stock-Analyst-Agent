@@ -58,7 +58,8 @@ class StockAnalysisSystem:
                 YFinanceTools(
                     stock_price=True,
                     analyst_recommendations=True,
-                    stock_fundamentals=True
+                    stock_fundamentals=True,
+                    technical_indicators=True
                 ),
             ],
             show_tools_calls=True,
